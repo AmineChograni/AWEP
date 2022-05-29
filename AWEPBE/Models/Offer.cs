@@ -2,12 +2,11 @@
 {
     public class Offer
     {
-        public int Id { get; set; }
-        public string Label { get; set; }
-        public string OfferContent { get; set; }
-        public bool Statu { get; set; }
-        public int AdminId { get; set; }
-        public Admin Admin { get; set; }
-        //test
+        protected int Id { get; set; }
+        protected string Label { get; set; }
+        protected string OfferContent { get; set; }
+        protected bool Statu { get; set; }
+        protected int AdminId { get; set; }
+        protected Admin Admin { get; set; }
     }
 }
