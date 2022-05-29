@@ -8,5 +8,6 @@
         public bool Statu { get; set; }
         public int AdminId { get; set; }
         public Admin Admin { get; set; }
+        //test
     }
 }
