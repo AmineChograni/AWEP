@@ -1,19 +1,16 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Identity;
+using System;
 using System.Collections.Generic;
 
 namespace AWEPBE.Models
 {
-    public class Etudient
+    public class Etudient : IdentityUser
     {
-        protected int Id { get; set; }
         protected string Nom { get; set; }
         protected string Prenom { get; set; }
         protected string NInscription { get; set; }
         protected string Image { get; set; }
-        protected string UserName { get; set; }
-        protected string PasswordHash { get; set; }
         protected string Adresse { get; set; }
-        protected string Email { get; set; }
         protected bool Statu { get; set; }
         protected string Telephone { get; set; }
         protected string Remarque { get; set; }
