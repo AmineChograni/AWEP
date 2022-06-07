@@ -4,12 +4,15 @@ import { CommonModule } from '@angular/common';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { HeroSectionComponent } from './hero-section/hero-section.component';
+import { EncoreSectionComponent } from './encore-section/encore-section.component';
 
 
 //ngzerro
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzButtonModule } from 'ng-zorro-antd/button';
-import { EncoreSectionComponent } from './encore-section/encore-section.component';
+import { NzIconModule } from 'ng-zorro-antd/icon';
+
+
 
 @NgModule({
   declarations: [HomeComponent, HeroSectionComponent, EncoreSectionComponent],
@@ -17,7 +20,8 @@ import { EncoreSectionComponent } from './encore-section/encore-section.componen
     CommonModule,
     HomeRoutingModule,
     NzGridModule,
-    NzButtonModule
+    NzButtonModule,
+    NzIconModule
   ]
 })
 export class HomeModule { }
