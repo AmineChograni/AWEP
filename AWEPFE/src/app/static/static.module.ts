@@ -6,12 +6,11 @@ import { StaticComponent } from './static.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 
-
 @NgModule({
   declarations: [StaticComponent, FooterComponent, NavbarComponent],
   imports: [
     CommonModule,
-    StaticRoutingModule
+    StaticRoutingModule,
   ]
 })
 export class StaticModule { }
