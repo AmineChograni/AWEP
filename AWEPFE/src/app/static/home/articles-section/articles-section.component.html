@@ -1,1 +1,36 @@
-<p>articles-section works!</p>
+<section class="articles-section">
+    <div nz-row nzJustify="center" >
+        <div nz-col nzSpan="22">
+            <h1>Articles : </h1>
+            <hr>
+            <div nz-row nzJustify="center" style="margin-top: 50px;">
+                <div nz-col [nzXXl]="{ span: 6}" class="gris_div">
+                    <h3 class="black_articat_title" nz-typography nzEllipsis>gris title</h3>
+                    <hr>
+                    <p class="black_paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam atque, explicabo unde iusto nemo libero eligendi minus error odio eos?</p>
+                    <a routerLink='#' class="black_arrow"><i nz-icon nzType="arrow-right" nzTheme="outline"></i></a>
+                </div>
+                <div nz-col [nzXXl]="{ span: 6}" class="blue_div">
+                    <h3 class="white_artical_title" nz-typography nzEllipsis>blue title</h3>
+                    <hr>
+                    <p class="white_paragraph" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sunt praesentium sit voluptas accusamus repellat consequatur magnam eius unde aperiam?</p>
+                    <a routerLink='#' class="white_arrow"><i nz-icon nzType="arrow-right" nzTheme="outline"></i></a>
+                </div>
+            </div>
+            <div nz-row nzJustify="center">
+                <div nz-col [nzXXl]="{ span: 6}" class="blue_div">
+                    <h3 class="white_artical_title" nz-typography nzEllipsis>blue title</h3>
+                    <hr>
+                    <p class="white_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. In accusantium optio aut repellat eaque quibusdam assumenda! Ad et vero ullam?</p>
+                    <a routerLink='#' class="white_arrow"><i nz-icon nzType="arrow-right" nzTheme="outline"></i></a>
+                </div>
+                <div nz-col [nzXXl]="{ span: 6}" class="gris_div">
+                    <h3 class="black_articat_title" nz-typography nzEllipsis>gris title</h3>
+                    <hr>
+                    <p class="black_paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium autem maiores doloremque pariatur in sed quam consequuntur numquam inventore distinctio!</p>
+                    <a routerLink='#' class="black_arrow"><i nz-icon nzType="arrow-right" nzTheme="outline"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,89 @@
+.articles-section{
+    margin-top: 100px;
+}
+
+.white_artical_title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 22px;
+    /* or 92% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+    
+}
+.black_articat_title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 22px;
+    /* or 92% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000;
+}
+.white_paragraph{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+
+    align-items: center;
+
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-right: 50px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+}
+.black_paragraph{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000;
+    margin-top: 40px;
+    margin-right: 50px;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+}
+.blue_div{
+    background-color:#1890FF;
+    border-radius: 15px;
+    margin: 5px;
+    width: 450px;
+    height: 350px;
+    padding: 30px;
+}
+.gris_div{
+    background-color: #FFF;
+    border: #1890FF 1px solid;
+    border-radius: 15px;
+    margin: 5px;
+    width: 450px;
+    height: 350px;
+    padding: 30px;
+}
