@@ -1,1 +1,36 @@
-<p>diplomes-section works!</p>
+<section class="diplomes-section">
+    <div nz-row nzJustify="center" >
+        <div nz-col nzSpan="22">
+            <h1>Nos diplomes :</h1>
+            <hr>
+            <div nz-row nzJustify="space-between">
+                <div nz-col nzSpan="6" *ngFor="let item of array">
+                    <nz-card style="width:300px;" [nzCover]="coverTemplate" >
+                        <nz-card-meta
+                          nzTitle="{{item.title}}"
+                          nzDescription="This is the description"
+                        ></nz-card-meta>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, quod!</p>
+                        <button nz-button nzType="primary">Go somewhere</button>
+                        <hr>
+                        <p>1st list item</p>
+                        <hr>
+                        <p>2nd list item</p>
+                        <hr>
+                        <div nz-row nzJustify="start">
+                            <div nz-col nzSpan="8">
+                                <a nz-button nzType="link">Card Link</a>
+                            </div>
+                            <div nz-col nzSpan="8">
+                                <a nz-button nzType="link">Another Link</a>
+                            </div>
+                        </div>
+                    </nz-card>
+                    <ng-template #coverTemplate>
+                        <img alt="example" src="{{item.imgURL}}" />
+                    </ng-template>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

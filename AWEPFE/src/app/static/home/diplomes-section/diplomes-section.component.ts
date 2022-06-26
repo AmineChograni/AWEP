@@ -9,6 +9,13 @@ export class DiplomesSectionComponent implements OnInit {
 
   constructor() { }
 
+  array: {title: string, imgURL: string }[] = [
+    { "title": "Master" , "imgURL": "../../../../assets/images/fedeL.png" },
+    { "title": "LP" ,"imgURL": "../../../../assets/images/fedeL.png" },
+    { "title": "TS" , "imgURL": "../../../../assets/images/accredites.png" },
+    {  "title": "T" ,"imgURL": "../../../../assets/images/accredites.png" },
+  ];
+
   ngOnInit(): void {
   }
 

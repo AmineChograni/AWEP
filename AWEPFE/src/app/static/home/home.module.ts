@@ -5,14 +5,15 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { HeroSectionComponent } from './hero-section/hero-section.component';
 import { EncoreSectionComponent } from './encore-section/encore-section.component';
+import { SommeSectionComponent } from './somme-section/somme-section.component';
+import { DiplomesSectionComponent } from './diplomes-section/diplomes-section.component';
 
 
 //ngzerro
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzButtonModule } from 'ng-zorro-antd/button';
 import { NzIconModule } from 'ng-zorro-antd/icon';
-import { SommeSectionComponent } from './somme-section/somme-section.component';
-import { DiplomesSectionComponent } from './diplomes-section/diplomes-section.component';
+import { NzCardModule } from 'ng-zorro-antd/card';
 
 
 
@@ -23,7 +24,8 @@ import { DiplomesSectionComponent } from './diplomes-section/diplomes-section.co
     HomeRoutingModule,
     NzGridModule,
     NzButtonModule,
-    NzIconModule
+    NzIconModule,
+    NzCardModule 
   ]
 })
 export class HomeModule { }
